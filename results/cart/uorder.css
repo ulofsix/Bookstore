@@ -1,0 +1,61 @@
+/* all */
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* left content */
+.order_list{
+    flex: 0 1 27%;
+    min-height: 60vh;
+    background-color: #fff;
+    letter-spacing: 1px;
+    border: 1px solid #eee;
+    border-radius:30px 30px;
+    margin: 0 2rem;
+    padding: 2rem 2rem;
+}
+.order_list .title{
+    flex: 1 1 100%;
+    height: 2rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    color: #666;
+    font-size: 0.9rem;
+}
+.order_list .content{
+    display: flex;
+    height: 2rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.order_list .total{
+    text-align: right;
+    margin: 2rem;
+}
+
+/* right content */
+.pay_list{
+    flex: 0 1 27%;
+    min-height: 60vh;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 30px 30px;
+    margin: 0 2rem;
+    padding: 1.8rem 2rem;
+}
+/* table tr:first-child(){
+    border-bottom: 1px solid #999;
+} */
+
+table tr{
+    height: 3rem;
+
+}
